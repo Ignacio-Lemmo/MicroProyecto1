@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#Text {
+
+}
+#Inputs {
+
+}
+#ContactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
