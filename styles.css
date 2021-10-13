@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Title{
+    color: white;
+
+}
+.Technology {
+
+}
+.Date{
+    color: white;
+
+}
+.Link {
+
+}
+.ProyectImage {
+ width: 400px;
+ padding: 10px;
+}
+.ProyectImages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   }
+.ProyectContainerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    align-content: center;
+}
+.ProyectContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-content: center;
+    background-color: rgba(0, 132, 134, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ProyectContainerRight {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    align-content: center;
+    background-color: rgba(0, 132, 134, 0.8);
+}
+#Experience {
+    padding-left: 10%;
+    padding-right: 10%;
+}
