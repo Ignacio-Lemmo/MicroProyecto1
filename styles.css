@@ -101,4 +101,35 @@ nav {
 #Experience {
     padding-left: 10%;
     padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Name {
+    text-align: right;
+    font-size: 25px;
+}
+.Objective {
+    
+}
+.ObjectivesList {
+ list-style-type: lower-greek;
+ list-style-position: inside;
+}
+#Objectives {
+
+}
+#Description {
+    text-align: justify;
+}
+#AboutMe {
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-color: black;
+ padding-right: 10%;
+ padding-left: 10%;
+ background-image: url(Images/Yo.jpg);
+ color: white;
 }
