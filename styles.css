@@ -18,6 +18,11 @@ a:hover {
     font-size: 18px;
     color: blue;
 }
+#name {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+}
 #navbarList {
     margin-left: 10%;
     margin-right: 10%;
@@ -32,7 +37,7 @@ a:hover {
 }
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     box-shadow: 2px 2px 2px white;
     background-color: white;
     position: sticky;
@@ -61,14 +66,8 @@ nav {
     color: white;
 
 }
-.Technology {
-
-}
 .Date{
     color: white;
-
-}
-.Link {
 
 }
 .ProyectImage {
@@ -115,15 +114,9 @@ nav {
     text-align: right;
     font-size: 25px;
 }
-.Objective {
-    
-}
 .ObjectivesList {
  list-style-type: lower-greek;
  list-style-position: inside;
-}
-#Objectives {
-
 }
 #Description {
     text-align: justify;
@@ -135,11 +128,22 @@ nav {
  flex-direction: column;
  background-position: center;
  background-repeat: no-repeat;
-
  padding-right: 10%;
  padding-left: 10%;
  background-image: url(Images/Yo.jpg);
  color: white;
+}
+#send {
+    border-width: 3px;
+    border-color: white;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+#send:hover {
+    border-width: 3px;
+    border-color: blue;
+    margin-bottom: 8px;
+    border-radius: 5px;
 }
 input[type=text] {
     border-width: 3px;
@@ -169,17 +173,16 @@ input[type=text] {
     margin-bottom: 20px;
 }
 #ContactMe {
+    padding-left: 10%;
+    padding-right: 10%;
     background-image: url("Images/Contactame.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: white;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
