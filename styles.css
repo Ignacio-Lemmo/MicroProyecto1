@@ -1,6 +1,42 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: wheat;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    font-size: 18px;
+    color: blue;
+}
+#navbarList {
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-type: none;
+}
+.navbarItem {
+    float: left;
+    margin-right: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    box-shadow: 2px 2px 2px white;
+    background-color: white;
+    position: sticky;
+
 }
 #Hero {
     display: flex;
@@ -11,9 +47,137 @@ body {
     color: white;
     text-align: center;
     width: 100%;
-    height: 720px;
+    min-height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+
+}
+.Title{
+    color: white;
+
+}
+.Technology {
+
+}
+.Date{
+    color: white;
+
+}
+.Link {
+
+}
+.ProyectImage {
+    width: 400px;
+    padding-top: 10px;
+}
+.ProyectImages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   }
+.ProyectContainerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: left;
+    align-content: center;
+}
+.ProyectContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-content: center;
+    background-color: rgba(0, 132, 134, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.ProyectContainerRight {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    align-content: center;
+    background-color: rgba(0, 132, 134, 0.8);
+    padding-bottom: 10px;
+}
+#Experience {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Name {
+    text-align: right;
+    font-size: 25px;
+}
+.Objective {
+    
+}
+.ObjectivesList {
+ list-style-type: lower-greek;
+ list-style-position: inside;
+}
+#Objectives {
+
+}
+#Description {
+    text-align: justify;
+}
+#AboutMe {
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-color: black;
+ padding-right: 10%;
+ padding-left: 10%;
+ background-image: url(Images/Yo.jpg);
+ color: white;
+}
+input[type=text] {
+    border-width: 3px;
+    border-color: white;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+#Text {
+    background-color:rgba(255, 255, 255, 0.8);
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+#Inputs {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#Contacts {
+    color: black;
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ContactMe {
+    background-image: url("Images/Contactame.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    margin-top: 10px;
 }
